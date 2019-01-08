@@ -11,7 +11,6 @@ import factory.methodfactory.BMWFactory;
 public class Test {
     public static void main(String[] args) {
         BMWFactory bmwFactory = new BMWFactory();
-        String bmwCar = bmwFactory.getBMWCar();
-        System.out.println(bmwCar);
+        System.out.println(bmwFactory.getCar().obtainCar());
     }
 }

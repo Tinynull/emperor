@@ -8,5 +8,5 @@ package factory.methodfactory;
  */
 public interface Car {
 
-    String getCar();
+    String obtainCar();
 }

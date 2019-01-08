@@ -7,8 +7,11 @@ package factory.methodfactory;
  * Create to NULL 2019/1/6/17:25
  */
 public class BMW implements Car {
+
+
     @Override
-    public String getCar() {
+    public String obtainCar() {
         return "你获得了宝马X6汽车";
+
     }
 }
